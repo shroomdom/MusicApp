@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Music App</string>
+    <string name="albumArtText">Album Art</string>
+    <string name="albumNameText">Album Name</string>
+    <string name="artistNameText">Artist Name</string>
+    <string name="playButtonText">Play</string>
+    <string name="lvSongNameText">Song Name</string>
+    <string name="lvArtistNameText">Artist Name</string>
+    <string name="mainAlbumText">Album</string>
+    <string name="mainAlbumNameText">Album Name</string>
+    <string name="mainArtistNameText">Artist Name</string>
 </resources>

@@ -21,20 +21,19 @@ public class SongAdapter extends ArrayAdapter<Song> {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.songs_page, parent, false);
+                    R.layout.songs_list, parent, false);
         }
 
-        // Get the {@link Word} object located at this position in the list
+        // Get the Song object located at this position in the list
         Song currentSong = getItem(position);
 
+        /**
+         *  Get song name and artist name data and set this text
+         */
         TextView songsTextView = (TextView) listItemView.findViewById(R.id.song_name_text_view);
-        // Get the Miwok translation from the currentWord object and set this text on
-        // the Miwok TextView.
         songsTextView.setText(currentSong.getSongName());
 
         TextView singerTextView = (TextView) listItemView.findViewById(R.id.singer_text_view);
-        // Get the Miwok translation from the currentWord object and set this text on
-        // the Miwok TextView.
         singerTextView.setText(currentSong.getArtistName());
 
 

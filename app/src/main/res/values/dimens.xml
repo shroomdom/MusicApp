@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="padding_all_around">16dp</dimen>
+    <dimen name="listViewPaddingAll">25dp</dimen>
+    <dimen name="songListLayoutPadding">25dp</dimen>
+    <dimen name="mainAlbumArtPadding">25dp</dimen>
+    <dimen name="mainInfoPaddingLeft">16dp</dimen>
+    <dimen name="mainInfoPaddingTop">22dp</dimen>
+    <dimen name="mainAlbumArtTextSize">30sp</dimen>
+    <dimen name="songListMarginLeft">17dp</dimen>
+    <dimen name="playLayoutWidth">50dp</dimen>
+    <dimen name="playLayoutHeight">50dp</dimen>
+    <dimen name="activityAlbumArtPadding">50dp</dimen>
+    <dimen name="activityAlbumInfoTextSize">25sp</dimen>
+    <dimen name="activityAlbumArtTextSize">30sp</dimen>
+    <dimen name="mainLayoutPadding">16dp</dimen>
 </resources>
