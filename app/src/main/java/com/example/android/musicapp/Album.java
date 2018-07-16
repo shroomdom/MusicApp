@@ -1,14 +1,14 @@
 package com.example.android.musicapp;
 
 public class Album {
-    private String mAlbumArt;
+    private int mAlbumArt;
     private String mAlbumName;
     private String mArtistName;
 
     /**
      * Create a new Album object
      */
-    public Album(String albumArt, String albumName, String artistName) {
+    public Album(int albumArt, String albumName, String artistName) {
         mAlbumArt = albumArt;
         mAlbumName = albumName;
         mArtistName = artistName;
@@ -17,7 +17,7 @@ public class Album {
     /**
      * Get the album art name.
      */
-    public String getAlbumArt() {
+    public int getAlbumArt() {
         return mAlbumArt;
     }
 

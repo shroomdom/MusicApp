@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+import android.widget.ImageView;
 
 import java.util.ArrayList;
 
@@ -30,8 +31,8 @@ public class AlbumAdapter extends ArrayAdapter<Album> {
         /**
          *  Get album art, album name, and artist name data and set this text
          */
-        TextView albumTextView = (TextView) listItemView.findViewById(R.id.mp_albumArt_text_view);
-        albumTextView.setText(currentAlbum.getAlbumArt());
+        ImageView albumImageView = (ImageView) listItemView.findViewById(R.id.mp_albumArt_image_view);
+        albumImageView.setImageResource(currentAlbum.getAlbumArt());
 
         TextView albumNameTextView = (TextView) listItemView.findViewById(R.id.mp_albumName_text_view);
         albumNameTextView.setText(currentAlbum.getAlbumName());

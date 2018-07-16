@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.activity_main_list_view);
 
         ArrayList<Album> albumList = new ArrayList<Album>();
-        albumList.add(new Album("Album", "Album Name One", "Artist Name One"));
-        albumList.add(new Album("Album", "Album Name Two", "Artist Name Two"));
-        albumList.add(new Album("Album", "Album Name Three", "Artist Name Three"));
+        albumList.add(new Album(R.drawable.album_cover, "Album Name One", "Artist Name One"));
+        albumList.add(new Album(R.drawable.album_cover, "Album Name Two", "Artist Name Two"));
+        albumList.add(new Album(R.drawable.album_cover, "Album Name Three", "Artist Name Three"));
 
         AlbumAdapter adapter = new AlbumAdapter(this, albumList);
 

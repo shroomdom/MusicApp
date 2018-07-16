@@ -3,36 +3,33 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="@dimen/mainLayoutPadding">
 
-    <TextView
-        android:id="@+id/mp_albumArt_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/albumArtColor"
-        android:padding="@dimen/mainAlbumArtPadding"
-        android:text="@string/mainAlbumText"
-        android:textColor="@color/albumInfoTextColor"
-        android:textSize="@dimen/mainAlbumArtTextSize"
-        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/mp_albumArt_image_view"
+        android:layout_width="@dimen/mp_album_art_width"
+        android:layout_height="@dimen/mp_album_art_height"
+        android:src="@drawable/album_cover"/>
 
     <LinearLayout
+        android:id="@+id/mp_albumInfo_text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingLeft="@dimen/mainInfoPaddingLeft"
-        android:paddingTop="@dimen/mainInfoPaddingTop">
+        android:paddingLeft="@dimen/mainInfoPaddingLeft">
 
         <TextView
             android:id="@+id/mp_albumName_text_view"
             style="@style/albumInfoStyle"
+            android:gravity="bottom"
             android:text="@string/mainAlbumNameText" />
 
         <TextView
             android:id="@+id/mp_artistName_text_view"
             style="@style/albumInfoStyle"
+            android:gravity="top"
             android:text="@string/mainArtistNameText" />
 
     </LinearLayout>

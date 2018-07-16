@@ -2,6 +2,7 @@ package com.example.android.musicapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.widget.ListView;
 import android.widget.TextView;
 

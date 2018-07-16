@@ -7,10 +7,14 @@
     <dimen name="mainInfoPaddingTop">22dp</dimen>
     <dimen name="mainAlbumArtTextSize">30sp</dimen>
     <dimen name="songListMarginLeft">17dp</dimen>
-    <dimen name="playLayoutWidth">50dp</dimen>
-    <dimen name="playLayoutHeight">50dp</dimen>
+    <dimen name="playLayoutWidth">30dp</dimen>
+    <dimen name="playLayoutHeight">30dp</dimen>
     <dimen name="activityAlbumArtPadding">50dp</dimen>
     <dimen name="activityAlbumInfoTextSize">25sp</dimen>
     <dimen name="activityAlbumArtTextSize">30sp</dimen>
     <dimen name="mainLayoutPadding">16dp</dimen>
+    <dimen name="mp_album_art_width">100dp</dimen>
+    <dimen name="mp_album_art_height">100dp</dimen>
+    <dimen name="album_art_width">200dp</dimen>
+    <dimen name="album_art_height">150dp</dimen>
 </resources>

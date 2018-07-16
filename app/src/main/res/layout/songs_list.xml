@@ -7,12 +7,11 @@
     android:orientation="horizontal"
     android:padding="@dimen/songListLayoutPadding">
 
-    <TextView
-        android:id="@+id/play_button_text_view"
-        style="@style/songListStyle"
+    <ImageView
+        android:id="@+id/play_button_image_view"
         android:layout_width="@dimen/playLayoutWidth"
         android:layout_height="@dimen/playLayoutHeight"
-        android:text="@string/playButtonText"/>
+        android:src="@mipmap/play_button_icon"/>
 
     <TextView
         android:id="@+id/song_name_text_view"

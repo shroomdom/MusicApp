@@ -17,11 +17,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".AlbumOne"
-            android:label="Album One"/>
+            android:label="Album One"
+            android:parentActivityName="com.example.android.musicapp.MainActivity"/>
         <activity android:name=".AlbumTwo"
-            android:label="Album Two"/>
+            android:label="Album Two"
+            android:parentActivityName="com.example.android.musicapp.MainActivity"/>
         <activity android:name=".AlbumThree"
-            android:label="Album Three"/>
+            android:label="Album Three"
+            android:parentActivityName="com.example.android.musicapp.MainActivity"/>
     </application>
 
 </manifest>
